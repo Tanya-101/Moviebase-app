@@ -4,7 +4,8 @@ import { Btn } from "../components";
 import  PageNotFoundImage  from "../assets/pagenotfound.jpg"
 
 export const PageNotFound = () => {
-
+   
+  // eslint-disable-next-line
   const pageTitle = useTitle(`Page Not Found`);
   return (
     <main>
